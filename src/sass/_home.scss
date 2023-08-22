@@ -7,4 +7,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.home__pic {
+  width: 700px;
+  height: 500px;
+  border: 4px rgba(0, 0, 0, 0.618) solid;
 }
