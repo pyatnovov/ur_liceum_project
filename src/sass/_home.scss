@@ -3,17 +3,67 @@
   justify-content: center;
   align-items: center;
 }
-.home__info {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-  margin-left: 50px;
-  margin-right: 50px;
-}
 
 .home__pic {
   width: 700px;
   height: 500px;
   border: 4px rgba(0, 0, 0, 0.618) solid;
+}
+.admission-button {
+  display: inline-block;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+  background-color: aqua;
+  color: #000000;
+  padding: 10px 20px;
+}
+.admission-button:hover {
+  background-color: #007bff;
+  color: #ffffff;
+}
+.admission-button:focus {
+  background-color: #007bff;
+  color: #ffffff;
+}
+.swiper {
+  width: 900px;
+  height: 600px;
+
+  border: #000000 5px solid;
+}
+.home-info {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+}
+.home-info:nth-child(1) {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.welcome-form {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.welcome {
+  font-size: 30px;
+}
+.welcome-text {
+  font-size: 20px;
+}
+
+.swiper-slide img {
+  width: auto;
+  height: auto;
+}
+.google-map {
+  margin: 15px;
+  border: 3px solid aqua;
 }

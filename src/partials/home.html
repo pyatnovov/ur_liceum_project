@@ -1,14 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+</head>
+<body>
 <section class="home">
   <h1 class="home__title">
     Ліцей №8 - школа профільного навчання: від правової освіти до активного
     громадянина
   </h1>
-  <div class="home__info">
-    <div class="gallery"></div>
-    <img class="home__pic" src="./images/homeimg/teachers.jpg" />
+  
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="./images/homeimg/img-1.jpeg"></div>
+          <div class="swiper-slide"><img src="./images/homeimg/img-2.jpeg"></div>
+          <div class="swiper-slide"><img src="./images/homeimg/img-3.jpeg"></div>
+          <div class="swiper-slide"><img src="./images/homeimg/img-4.jpg"></div>
+
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
     <div>
-      <p>Юридичний ліцей чекає на вас!</p>
-      <p>
+
+<div class="home-info">
+  <div class="welcome-form"> 
+      <p class="welcome">Юридичний ліцей чекає на вас!</p>
+      <p class="welcome-text">
         Юридичний ліцей – заклад освіти, де впроваджується власна система,
         сучасні технології, моделі, оптимальні форми і методи організації
         правової освіти та виховання учнівської молоді. У ліцеї створені належні
@@ -24,8 +48,43 @@
         href="https://docs.google.com/forms/d/e/1FAIpQLScHKiwz-gZJMhyR6JmDqRTPGsCz2mb0jfKO4b8yAxb-VEeQ1Q/viewform"
         target="_blank"
       >
-        <button type="button">Заповниити форму для вступу</button>
-      </a>
-    </div>
+        <button type="button" class="admission-button">Заповниити форму для вступу</button>
+    </a>
   </div>
-</section>
+    
+    <div class="google-map">
+      <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2724.1446694657852!2d32.056469!3d46.9391957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c5cb0cd567600b%3A0xd47328f1d83c26e!2z0L_RgNC-0YHQvy4g0JzQuNGA0LAsIDIz0LMsINCd0LjQutC-0LvQsNC10LIsINCd0LjQutC-0LvQsNC10LLRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwgNTQwMDA!5e0!3m2!1sru!2sua!4v1693026841823!5m2!1sru!2sua"
+      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+    </div>
+
+    </div>
+
+  
+  <h2>Важлива інформація</h2>
+  <p class="additional-information"> До уваги учнів та батьків! Відповідно до рішення Миколаївської міської ради <a target="_blank" href="https://drive.google.com/file/d/1InOhPhe5QYJrv7FzkbvuGnvO4mBJhKlN/view?pli=1">від 30 травня 2023 року № 19/61 "Про
+    перейменування закладів загальної середньої освіти м. Миколаєва</a>" Миколаївський юридичний ліцей перейменований на
+    Миколаївський ліцей № 8 Миколаївської міської ради Миколаївської області, скорочене найменування МЛ № 8 ММР.</p>
+  <p><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTwbG3E1vUNfVQkBChbIxyNhQVRXtmEi_6T40fAed8VqdOgi0VABvBapz4hv0bRnYVZ8LkeJT-yf71i/pubhtml?gid=1658492535&single=true">Загальний моніторинг 2022-2023 ІІ семестр</a></p>
+  <p><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTwbG3E1vUNfVQkBChbIxyNhQVRXtmEi_6T40fAed8VqdOgi0VABvBapz4hv0bRnYVZ8LkeJT-yf71i/pubhtml?gid=718829743&single=true">Моніторинг класів</a></p>
+<p>Доступ до ліцею осіб з особливими освітніми потребами існує.
+Один з бокових входів ліцею оснащений пандусом і кнопкою виклику працівника закладу. Місце розміщення пандусу і кнопки
+позначено стрілками та значками.
+
+Умови ж для навчання в ліцеї осіб з особливими потребами відсутні.</p>
+  <div class="children-lists">
+    <h3>Списки учнів, які зараховані до 10-х класів ліцею:</h3>
+    <ul class="list">
+      <li class="liat-item"><a class="list-link" target="_blank" href="https://docs.google.com/document/d/1knicQoOOjInxboy0XGp2byTr-_F5bEtQeCL7b-p5gw8/edit">10-А (історико-правовий)</a></li>
+      <li class="liat-item"><a class="list-link" target="_blank" href="https://docs.google.com/document/d/1OGwu3SxDR9UlKPIlHAePGepw6SywdF1uCYRoEcZ_z0Y/edit">10-Б (економіко-правовий)</a></li>
+      <li class="liat-item"><a class="list-link" target="_blank" href="https://docs.google.com/document/d/1ulW7L1sidH1hLFQhJ0ZtA-35tR6VKd_wohCC0toq7Mg/edit">10-В (філологічний)</a></li>
+      <li class="liat-item"><a class="list-link" target="_blank" href="https://docs.google.com/document/d/18eJDIFpI9wAQ1RyWoWtXyDMdOuy0yRgHUN_rDbDRJTY/edit">10-Г (інформаційно-технологічний)</a></li>
+    </ul>
+  </div>  
+
+</section>  
+<script type="module" src="./js/swiper.js"></script>
+</body>
+</html>
+
