@@ -1,7 +1,6 @@
 .home__title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-top: 40px;
+  text-align: center;
 }
 
 .home__pic {
@@ -18,16 +17,17 @@
   text-decoration: none;
   border-radius: 5px;
   transition: background-color 0.3s, color 0.3s;
-  background-color: aqua;
+  background-color: #ffe57f;
   color: #000000;
   padding: 10px 20px;
+  margin-bottom: 300px;
 }
 .admission-button:hover {
-  background-color: #007bff;
+  background-color: rgb(1, 24, 168);
   color: #ffffff;
 }
 .admission-button:focus {
-  background-color: #007bff;
+  background-color: rgb(1, 24, 168);
   color: #ffffff;
 }
 .swiper {
@@ -37,10 +37,16 @@
   border: #000000 5px solid;
 }
 .home-info {
-  margin-top: 50px;
+  color: #ffffff;
   margin-bottom: 50px;
   display: flex;
+  background: linear-gradient(rgba(0, 0, 0, 0.571), rgba(0, 0, 0, 0.514)),
+    url(../images/homeimg/img-1.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
+
 .home-info:nth-child(1) {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -53,10 +59,11 @@
 }
 
 .welcome {
-  font-size: 30px;
+  font-size: 40px;
+  margin-top: 300px;
 }
 .welcome-text {
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .swiper-slide img {
@@ -66,4 +73,25 @@
 .google-map {
   margin: 15px;
   border: 3px solid aqua;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.info__title {
+  font-size: 30px;
+}
+.info__additional-information {
+  display: inline-block;
+  text-align: center;
+  font-size: 25px;
+}
+
+.progress__list {
+  font-size: 30px;
+  text-align: center;
 }
