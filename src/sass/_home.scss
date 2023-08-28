@@ -20,7 +20,7 @@
   background-color: #ffe57f;
   color: #000000;
   padding: 10px 20px;
-  margin-bottom: 300px;
+  margin-bottom: 200px;
 }
 .admission-button:hover {
   background-color: rgb(1, 24, 168);
@@ -38,10 +38,9 @@
 }
 .home-info {
   color: #ffffff;
-  margin-bottom: 50px;
   display: flex;
   background: linear-gradient(rgba(0, 0, 0, 0.571), rgba(0, 0, 0, 0.514)),
-    url(../images/homeimg/img-1.jpeg);
+    url(../images/homeimg/liceum.JPG);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -60,7 +59,7 @@
 
 .welcome {
   font-size: 40px;
-  margin-top: 300px;
+  margin-top: 200px;
 }
 .welcome-text {
   font-size: 25px;
@@ -70,9 +69,14 @@
   width: auto;
   height: auto;
 }
+// .socialmedia {
+
+// }
 .google-map {
   margin: 15px;
-  border: 3px solid aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .info {
@@ -80,18 +84,30 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .info__title {
   font-size: 30px;
 }
 .info__additional-information {
-  display: inline-block;
   text-align: center;
-  font-size: 25px;
+  margin: 0;
 }
 
 .progress__list {
-  font-size: 30px;
   text-align: center;
+}
+.children-lists {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.socialmedia {
+  margin-left: 100px;
+  margin-right: 100px;
 }
