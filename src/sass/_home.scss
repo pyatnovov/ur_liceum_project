@@ -40,7 +40,7 @@
   color: #ffffff;
   display: flex;
   background: linear-gradient(rgba(0, 0, 0, 0.571), rgba(0, 0, 0, 0.514)),
-    url(../images/homeimg/liceum.JPG);
+    url(../images/homeimg/liceum.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -77,6 +77,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: absolute;
+}
+.line {
+  background-color: #292fa9;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  position: relative;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
 }
 
 .info {
@@ -86,6 +99,9 @@
   flex-direction: column;
   margin-left: 100px;
   margin-right: 100px;
+}
+.info a {
+  color: #292fa9;
 }
 
 .info__title {
