@@ -69,27 +69,23 @@
   width: auto;
   height: auto;
 }
-// .socialmedia {
-
-// }
-.google-map {
-  margin: 15px;
+.socialmedia {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+.google-map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
+  z-index: 1000;
 }
 .line {
   background-color: #292fa9;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding: 100 1000 100 1000;
   position: relative;
-  top: 0px;
-  bottom: 0px;
-  right: 0px;
-  left: 0px;
 }
 
 .info {
