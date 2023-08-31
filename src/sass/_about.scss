@@ -1,0 +1,32 @@
+p {
+  margin: 0;
+}
+.about-section {
+  margin-top: 200px;
+}
+.municipality {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.about-section__title {
+  font-size: 30px;
+}
+.about-section a {
+  color: #292fa9;
+}
+.about-section__link {
+  font-size: 19px;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 19px;
+}
+.schem {
+  margin-bottom: 50px;
+}
