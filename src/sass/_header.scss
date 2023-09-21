@@ -3,10 +3,6 @@
   align-items: center;
   justify-content: space-around;
   background-color: rgb(1, 24, 168);
-  @media screen and (min-width: 480px) {
-    font-size: smaller;
-    gap: 10px;
-  }
 }
 .title {
   font-family: 'Cormorant Unicase', serif;
@@ -18,9 +14,6 @@
 }
 .liceum__logo {
   margin-right: 20px;
-  @media screen and(min-width:480px) {
-    margin-right: 0;
-  }
 }
 .navigation {
   display: flex;
@@ -28,9 +21,6 @@
 .navigation-list {
   display: flex;
   gap: 20px;
-  @media screen and(min-width:480px) {
-    gap: 10px;
-  }
 }
 .navigation-link {
   color: #ffe57f;
